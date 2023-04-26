@@ -28,6 +28,7 @@ function ProductTable({ products, inStockOnly, filterText }) {
   const rows = [];
   let lastCategory = null;
 
+  
   products.forEach((product) => {
   if (
       product.name.toLowerCase().indexOf(
